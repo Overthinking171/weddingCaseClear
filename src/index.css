@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+.brand .icon{
+    @apply text-[1.5em];
+}
+.icon{
+    @apply text-[2em];
+}
+.pp{
+    @apply w-[50px];
+    @apply rounded-[100px];
+}
+.search{
+    @apply p-[10px];
+}
