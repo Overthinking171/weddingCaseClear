@@ -6,6 +6,11 @@ import woman from "../assets/woman.png";
 import wedding from "../assets/bg2.png";
 import maps from "../assets/map.png";
 import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
+import img5 from "../assets/img5.png";
+import img6 from "../assets/img6.png";
 import leftTop from "../assets/left-top.png";
 import leftBottom from "../assets/left-bottom.png";
 import centerTop from "../assets/center-top.png";
@@ -122,7 +127,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="protocol" className="mt-12">
+      <section id="protocol" className="my-12">
         <div className="container mx-auto">
           <div className="text-protocol text-center">
             <h1 className="title-text my-5 font-dancing text-5xl">
@@ -136,34 +141,34 @@ const Home = () => {
             </p>
           </div>
           <div className="card-list">
-            <div className="grid mt-16 py-10 grid-cols-4 mx-auto">
+            <div className="grid mt-16 py-5 grid-cols-4 mx-auto">
               <div className="card">
                 <img src={img1} alt="" className="mx-auto" />
-                <p className="lead text-center">lorem ipsum dolor sit amet</p>
+                <p className="lead text-center my-4">Cuci Tangan</p>
               </div>
               <div className="card">
-                <img src={img1} alt="" className="mx-auto" />
-                <p className="lead text-center">lorem ipsum dolor sit amet</p>
+                <img src={img2} alt="" className="mx-auto" />
+                <p className="lead text-center my-4">Menggunakan Masker</p>
               </div>
               <div className="card">
-                <img src={img1} alt="" className="mx-auto" />
-                <p className="lead text-center">lorem ipsum dolor sit amet</p>
+                <img src={img3} alt="" className="mx-auto" />
+                <p className="lead text-center my-4">Jaga Jarak</p>
               </div>
               <div className="card">
-                <img src={img1} alt="" className="mx-auto" />
-                <p className="lead text-center">lorem ipsum dolor sit amet</p>
+                <img src={img4} alt="" className="mx-auto" />
+                <p className="lead text-center my-4">Hindari Kontak Langsung</p>
               </div>
             </div>
           </div>
-          <div className="grid mt-16 py-10 grid-cols-4 mx-auto">
+          <div className="grid mt-16 py-5 grid-cols-4 mx-auto">
             <div className="card"></div>
             <div className="card">
-              <img src={img1} alt="" className="mx-auto" />
-              <p className="lead text-center">lorem ipsum dolor sit amet</p>
+              <img src={img5} alt="" className="mx-auto" />
+              <p className="lead text-center my-4">Jangan Berkerumun</p>
             </div>
             <div className="card">
-              <img src={img1} alt="" className="mx-auto" />
-              <p className="lead text-center">lorem ipsum dolor sit amet</p>
+              <img src={img6} alt="" className="mx-auto" />
+              <p className="lead text-center my-4">Netralisir Menggunakan Disinfektan</p>
             </div>
             <div className="card"></div>
           </div>
