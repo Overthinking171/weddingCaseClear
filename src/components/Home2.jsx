@@ -29,8 +29,8 @@ const Home2 = () => {
         <img src={bg} className="w-full" alt="background" />
       </div>
       {/* Card Mempelai */}
-      <div className="container md:container sm:container relative z-10 -mt-52 sm:-mt-12 mx-auto">
-        <div className="card w-4/6 sm:w-11/12 mx-auto border-2 bg-white p-16 sm:p-5 rounded-2xl shadow-md">
+      <div className="container md:container sm:container relative z-10 -mt-52 md:-mt-52 sm:-mt-12 mx-auto">
+        <div className="card w-4/6 md:w-8/12 sm:w-11/12 mx-auto border-2 bg-white p-16 md:p-10 sm:p-5 rounded-2xl shadow-md">
           <h1 className="text-title text-center font-poppins text-2xl">
             Mempelai
           </h1>
@@ -40,9 +40,9 @@ const Home2 = () => {
           <div className="img w-36 mx-auto">
             <img src={flower} alt="" className="text-center ml-5 " />
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-1 gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10">
             <div className="description">
-              <div className="flex justify-end items-center sm:justify-center">
+              <div className="flex justify-end items-center md:justify-end sm:justify-center">
                 <div className="text-group">
                   <p className="top-title text-right font-marck text-3xl py-[5px!important]">
                     Nama Pria
@@ -57,17 +57,17 @@ const Home2 = () => {
                 <img
                   src={cw}
                   alt=""
-                  className="border-2 border-[#555656] p-3 rounded-full sm:max-h-[90px]"
+                  className="border-2 border-[#555656] p-3 rounded-full md:max-h-[120px] sm:max-h-[90px]"
                 />
 
               </div>
             </div>
             <div className="description">
-              <div className="flex items-center justify-start sm:justify-center">
+              <div className="flex items-center justify-start md:justify-start sm:justify-center">
                 <img
                   src={cwk}
                   alt=""
-                  className="border-2 border-[#555656] p-3 rounded-full sm:max-h-[90px]"
+                  className="border-2 border-[#555656] p-3 rounded-full md:max-h-[120px] sm:max-h-[90px]"
                 />
                 <div className="text-group">
                   <p className="top-title font-marck text-3xl py-[5px!important]">Nama Wanita</p>
@@ -85,19 +85,19 @@ const Home2 = () => {
       </div>
 
       <section id="akad" className="mt-44 mx-auto">
-        <h1 className="title-text uppercase text-center text-5xl sm:text-3xl">
+        <h1 className="title-text uppercase text-center text-5xl md:text-4xl sm:text-3xl">
           akad nikah
         </h1>
-        <h1 className="heading-title font-parisienne mt-10 text-7xl sm:text-5xl px-5 text-center">
+        <h1 className="heading-title font-parisienne mt-10 text-7xl md:text-6xl sm:text-5xl px-5 text-center">
           Minggu, 18 Desember 2022
         </h1>
-        <p className="lead text-center font-montserrat tracking-wide mt-10 text-2xl sm:text-xl">
+        <p className="lead text-center font-montserrat tracking-wide mt-10 text-2xl md:text-2xl sm:text-xl">
           Grand Slipi Tower, Jl. Letjen S. Parman, RT. 06/RW 04, Kec. Semarang
           Barat, Semarang
         </p>
         <p
           className="time text-
-        poppins text-center p-10 text-4xl sm:text-3xl"
+        poppins text-center p-10 text-4xl md:text-4xl sm:text-3xl"
         >
           {" "}
           08.00 - 10.00 WIB
@@ -109,19 +109,19 @@ const Home2 = () => {
         </center>
       </section>
 
-      <section id="resepsi" className="mt-[35rem] sm:mt-[10rem]">
+      <section id="resepsi" className="mt-[35rem] md:mt-[35rem] sm:mt-[10rem]">
         <div className="wrappers relative z-10">
-          <h1 className="title-text text-center text-5xl sm:text-3xl text-white text-poppins">
+          <h1 className="title-text text-center text-5xl md:text-4xl sm:text-3xl text-white text-poppins">
             Resepsi
           </h1>
-          <h1 className="heading-title font-parisienne text-white mt-10 text-7xl sm:text-5xl px-5 text-center">
+          <h1 className="heading-title font-parisienne text-white mt-10 text-7xl md:text-6xl sm:text-5xl px-5 text-center">
             Minggu, 18 Desember 2022
           </h1>
           <p className="lead text-center font-montserrat text-white tracking-wide mt-10 text-2xl sm:text-xl">
             Grand Slipi Tower, Jl. Letjen S. Parman, RT. 06/RW 04, Kec. Semarang
             Barat, Semarang
           </p>
-          <p className="time text-poppins text-center text-white p-10 text-4xl sm:text-2xl">
+          <p className="time text-poppins text-center text-white p-10 text-4xl md:text-3xl sm:text-2xl">
             {" "}
             13.00 - 15.00 WIB
           </p>
@@ -134,7 +134,7 @@ const Home2 = () => {
         <img
           src={vector}
           alt="w-screen h-screen"
-          className="w-screen absolute z-0 -mt-[80rem] sm:-mt-[30rem]"
+          className="w-screen absolute z-0 -mt-[80rem] md:-mt-[80rem] sm:-mt-[30rem]"
         />
       </section>
 
@@ -145,7 +145,7 @@ const Home2 = () => {
           <p className="text -ml-14 font-[450]">Love Story</p>
         </h1>
         <div className="container mx-auto ">
-          <div className="grid grid-cols-2 sm:grid-cols-1 items-center">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 items-center">
             <div className="love-list">
               <div className="love-group flex items-center">
                 <div className="number">
@@ -187,12 +187,12 @@ const Home2 = () => {
                 </div>
               </div>
             </div>
-            <div className="img sm:hidden">
+            <div className="img md:contents sm:hidden">
               <img src={couple} alt="" className="mx-auto" />
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-1 items-center mt-24">
-            <div className="img sm:hidden">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 items-center mt-24">
+            <div className="img md:contents sm:hidden">
               <img src={couple} alt="" className="mx-auto" />
             </div>
             <div className="love-list">
@@ -241,7 +241,7 @@ const Home2 = () => {
       </section>
 
       <section id="gallery" className="mt-52">
-        <h1 className="title-text text-center text-3xl">ALBUM FOTO</h1>
+        <h1 className="title-text text-center text-3xl md:text-3xl sm:text-xl">ALBUM FOTO</h1>
         <div className="container mx-auto mt-10">
           <div className="grid grid-cols-3 w-full items-center mx-auto">
             <div className="grid-cols-2 mx-auto">
@@ -305,7 +305,7 @@ const Home2 = () => {
         </p>
         <div className="container mx-auto mt-16">
           <div className="card-list">
-            <div className="grid grid-cols-3 sm:grid-cols-1 items gap-10">
+            <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 items gap-10">
               <div className="card py-10 min-w-full border-2 rounded-lg mx-auto">
                 <h1 className="title text-center text-4xl text-black my-8">
                   Transfer
@@ -351,8 +351,8 @@ const Home2 = () => {
       </section>
 
       <section className="RSVP bg-background bg-cover bg-no-repeat bg-center relative">
-        <div className="container mx-auto p-24 sm:p-3 relative z-10">
-          <div className="grid grid-cols-2 sm:grid-cols-1 items-center gap-24">
+        <div className="container mx-auto p-24 md:p-24 sm:p-3 relative z-10">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 items-center gap-24">
             <div className="comment">
               {/* Card-1 */}
               <div className="card my-5 p-10 bg-white max-w-[100px] py-10 min-w-full border-2 rounded-lg mx-auto">
