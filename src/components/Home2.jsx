@@ -93,7 +93,7 @@ const Home2 = () => {
           Rabu, 11 Januari 2023
         </h1>
         <p className="lead text-center font-montserrat tracking-wide mt-10 text-2xl md:text-2xl sm:text-xl">
-          
+          Desa Lempuyang RT. 01 RW. 03 Kecamatan Wonosalam Kabupaten Demak
         </p>
         <p
           className="time text-
@@ -118,7 +118,7 @@ const Home2 = () => {
             Rabu, 11 Januari 2023
           </h1>
           <p className="lead text-center font-montserrat text-white tracking-wide mt-10 text-2xl sm:text-xl">
-          Desa Lempuyang RT. 01 RW. 03 ( Sebelah Balaidesa Lempuyang )
+            Desa Wonosalam RT. 03 RW. 02 Kecamatan Wonosalam Kabupaten Demak
           </p>
           <p className="time text-poppins text-center text-white p-10 text-4xl md:text-3xl sm:text-2xl">
             {" "}
@@ -256,6 +256,13 @@ const Home2 = () => {
           ALBUM FOTO
         </h1>
         <div className="container mx-auto mt-10">
+          <div className="img md:hidden sm:contents">
+            <img
+              src={centerTop}
+              alt=""
+              className="items-start mt-3 mx-auto rounded-xl"
+            />
+          </div>
           <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-full items-center mx-auto">
             <div className="grid-cols-2 mx-auto">
               <img src={leftTop} alt="" className="mx-auto mt-3 rounded-xl" />
@@ -266,19 +273,24 @@ const Home2 = () => {
               />
             </div>
             <div className="flex flex-col mx-auto items-stretch">
-              <img
-                src={centerTop}
-                alt=""
-                className="items-start mt-3 mx-auto md:contents sm:hidden rounded-xl"
-              />
-              <p className="lead gal-text text-center font-dancing md:contents sm:hidden text-6xl my-28">
+              <div className="img md:contents sm:hidden">
+                <img
+                  src={centerTop}
+                  alt=""
+                  className="items-start mt-3 mx-auto rounded-xl"
+                />
+              </div>
+
+              <p className="lead gal-text text-center font-dancing text-6xl md:text-5xl sm:text-4xl my-28">
                 Gallery
               </p>
-              <img
-                src={centerBottom}
-                alt=""
-                className="mx-auto mt-3 md:contents sm:hidden rounded-xl"
-              />
+              <div className="img md:contents sm:hidden">
+                <img
+                  src={centerBottom}
+                  alt=""
+                  className="mx-auto mt-3 rounded-xl"
+                />
+              </div>
             </div>
             <div className="grid-cols-2 mx-auto">
               <img src={rightTop} alt="" className="mx-auto mt-3 rounded-xl" />
@@ -288,6 +300,13 @@ const Home2 = () => {
                 className="mx-auto mt-3 rounded-xl"
               />
             </div>
+          </div>
+          <div className="img md:hidden sm:contents">
+            <img
+              src={centerBottom}
+              alt=""
+              className="mx-auto mt-3 rounded-xl"
+            />
           </div>
         </div>
       </section>
