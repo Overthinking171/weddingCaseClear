@@ -45,13 +45,13 @@ const Home2 = () => {
               <div className="flex justify-end items-center md:justify-end sm:justify-center">
                 <div className="text-group">
                   <p className="top-title text-right font-marck text-3xl py-[5px!important]">
-                    Nama Pria
+                    In'am Attaqi
                   </p>
                   <p className="center-title text-right py-[5px!important] text-[#888]">
-                    Anak tunggal dari
+                    Anak Putra dari
                   </p>
                   <p className="bottom-title  text-right py-[5px!important] text-[#888]">
-                    Bpk. Ilham & Ibu Nurul
+                    Alm. Bapak Nahwan Ibu Rofiatun
                   </p>
                 </div>
                 <img
@@ -59,7 +59,6 @@ const Home2 = () => {
                   alt=""
                   className="border-2 border-[#555656] p-3 rounded-full md:max-h-[120px] sm:max-h-[90px]"
                 />
-
               </div>
             </div>
             <div className="description">
@@ -70,12 +69,14 @@ const Home2 = () => {
                   className="border-2 border-[#555656] p-3 rounded-full md:max-h-[120px] sm:max-h-[90px]"
                 />
                 <div className="text-group">
-                  <p className="top-title font-marck text-3xl py-[5px!important]">Nama Wanita</p>
+                  <p className="top-title font-marck text-3xl py-[5px!important]">
+                    Siti Sumiyati Nur
+                  </p>
                   <p className="center-title py-[5px!important] text-[#888]">
-                    Anak tunggal dari
+                    Anak Putri dari
                   </p>
                   <p className="bottom-tittle py-[5px!important] text-[#888] max-w-sm">
-                    Bpk. Ilham & Ibu Nurul
+                    Bapak Sumaeri Ibu Kasmonah
                   </p>
                 </div>
               </div>
@@ -89,18 +90,17 @@ const Home2 = () => {
           akad nikah
         </h1>
         <h1 className="heading-title font-parisienne mt-10 text-7xl md:text-6xl sm:text-5xl px-5 text-center">
-          Minggu, 18 Desember 2022
+          Rabu, 11 Januari 2023
         </h1>
         <p className="lead text-center font-montserrat tracking-wide mt-10 text-2xl md:text-2xl sm:text-xl">
-          Grand Slipi Tower, Jl. Letjen S. Parman, RT. 06/RW 04, Kec. Semarang
-          Barat, Semarang
+          
         </p>
         <p
           className="time text-
         poppins text-center p-10 text-4xl md:text-4xl sm:text-3xl"
         >
           {" "}
-          08.00 - 10.00 WIB
+          11.20 - 12.30
         </p>
         <center>
           <button className="py-5 px-16 bg-black text-white text-bold rounded-md cursor-pointer relative z-50">
@@ -115,15 +115,14 @@ const Home2 = () => {
             Resepsi
           </h1>
           <h1 className="heading-title font-parisienne text-white mt-10 text-7xl md:text-6xl sm:text-5xl px-5 text-center">
-            Minggu, 18 Desember 2022
+            Rabu, 11 Januari 2023
           </h1>
           <p className="lead text-center font-montserrat text-white tracking-wide mt-10 text-2xl sm:text-xl">
-            Grand Slipi Tower, Jl. Letjen S. Parman, RT. 06/RW 04, Kec. Semarang
-            Barat, Semarang
+          Desa Lempuyang RT. 01 RW. 03 ( Sebelah Balaidesa Lempuyang )
           </p>
           <p className="time text-poppins text-center text-white p-10 text-4xl md:text-3xl sm:text-2xl">
             {" "}
-            13.00 - 15.00 WIB
+            12.30 - Selesai
           </p>
           <center>
             <button className="py-5 px-16 bg-white text-black border-black text-bold rounded-md">
@@ -152,7 +151,9 @@ const Home2 = () => {
                   <img src={satu} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -165,7 +166,9 @@ const Home2 = () => {
                   <img src={dua} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -178,7 +181,9 @@ const Home2 = () => {
                   <img src={tiga} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -201,7 +206,9 @@ const Home2 = () => {
                   <img src={satu} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -214,7 +221,9 @@ const Home2 = () => {
                   <img src={dua} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -227,7 +236,9 @@ const Home2 = () => {
                   <img src={tiga} alt="" className="mx-auto" />
                 </div>
                 <div className="text-group">
-                  <h1 className="title text-2xl font-poppins text-bold">Awal Bertemu</h1>
+                  <h1 className="title text-2xl font-poppins text-bold">
+                    Awal Bertemu
+                  </h1>
                   <p className="leads font-inter p-0">
                     Lorem ipsum dolor sit amet consectetur. Quis nibh tristique
                     faucibus vel cras amet risus. Risus adipiscing tellus id
@@ -241,9 +252,11 @@ const Home2 = () => {
       </section>
 
       <section id="gallery" className="mt-52">
-        <h1 className="title-text text-center text-3xl md:text-3xl sm:text-xl">ALBUM FOTO</h1>
+        <h1 className="title-text text-center text-3xl md:text-3xl sm:text-xl">
+          ALBUM FOTO
+        </h1>
         <div className="container mx-auto mt-10">
-          <div className="grid grid-cols-3 w-full items-center mx-auto">
+          <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-full items-center mx-auto">
             <div className="grid-cols-2 mx-auto">
               <img src={leftTop} alt="" className="mx-auto mt-3 rounded-xl" />
               <img
@@ -256,15 +269,15 @@ const Home2 = () => {
               <img
                 src={centerTop}
                 alt=""
-                className="items-start mt-3 rounded-xl"
+                className="items-start mt-3 mx-auto md:contents sm:hidden rounded-xl"
               />
-              <p className="lead gal-text text-center font-dancing text-6xl my-28">
+              <p className="lead gal-text text-center font-dancing md:contents sm:hidden text-6xl my-28">
                 Gallery
               </p>
               <img
                 src={centerBottom}
                 alt=""
-                className="mx-auto mt-3 rounded-xl"
+                className="mx-auto mt-3 md:contents sm:hidden rounded-xl"
               />
             </div>
             <div className="grid-cols-2 mx-auto">
@@ -363,7 +376,9 @@ const Home2 = () => {
                   aenean.{" "}
                 </p>
                 <div className="text-group mt-3">
-                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">Ronald Medium</p>
+                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">
+                    Ronald Medium
+                  </p>
                   <p className="center-title text-[#888] px-[0px!important] py-[0px!important] font-poppins">
                     Temanggung, Indonesia
                   </p>
@@ -379,7 +394,9 @@ const Home2 = () => {
                   aenean.{" "}
                 </p>
                 <div className="text-group mt-3">
-                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">Ronald Medium</p>
+                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">
+                    Ronald Medium
+                  </p>
                   <p className="center-title text-[#888] px-[0px!important] py-[0px!important] font-poppins">
                     Temanggung, Indonesia
                   </p>
@@ -395,7 +412,9 @@ const Home2 = () => {
                   aenean.{" "}
                 </p>
                 <div className="text-group mt-3">
-                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">Ronald Medium</p>
+                  <p className="top-title text-xl px-[0px!important] text-[#A80038] font-poppins">
+                    Ronald Medium
+                  </p>
                   <p className="center-title text-[#888] px-[0px!important] py-[0px!important] font-poppins">
                     Temanggung, Indonesia
                   </p>
@@ -405,7 +424,10 @@ const Home2 = () => {
 
             {/* Send */}
             <div className="send">
-              <form action="#" className="p-16 sm:p-4 rounded-lg border-2 bg-white">
+              <form
+                action="#"
+                className="p-16 sm:p-4 rounded-lg border-2 bg-white"
+              >
                 <div className="send-text">
                   <h1 className="title-text text-center text-black text-5xl my-5 font-bold">
                     RSVP
