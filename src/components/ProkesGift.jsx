@@ -32,10 +32,10 @@ const ProkesGift = () => {
           kado secara cashless dengan mengirim amplop digital secara transfer
           pada akun di bawah ini :
         </p>
-        <div className="container mx-auto mt-16">
+        <div className="container mx-auto mt-16 p-5">
           <div className="card-list">
             <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 items gap-10">
-              <div className="card py-10 min-w-full border-2 rounded-lg mx-auto">
+              <div className="card p-5 py-10 min-w-full border-2 rounded-lg mx-auto">
                 <h1 className="title text-center text-4xl text-black my-8">
                   Transfer
                 </h1>
@@ -50,7 +50,7 @@ const ProkesGift = () => {
                   </button>
                 </center>
               </div>
-              <div className="card py-10 min-w-full border-2 rounded-lg mx-auto">
+              <div className="card p-5 py-10 min-w-full border-2 rounded-lg mx-auto">
                 <h1 className="title text-center text-4xl text-black my-8">
                   Transfer
                 </h1>
@@ -65,7 +65,7 @@ const ProkesGift = () => {
                   </button>
                 </center>
               </div>
-              <div className="card py-10 min-w-full border-2 rounded-lg mx-auto">
+              <div className="card p-5 py-10 min-w-full border-2 rounded-lg mx-auto">
                 <h1 className="title text-center text-4xl text-black my-8">
                   Dana
                 </h1>

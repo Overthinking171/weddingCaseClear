@@ -20,7 +20,7 @@ module.exports = {
         'vector': "url('/src/assets/vector.png')",
       },
       screens: {
-        sm: '375px',
+        sm: '340px',
         md: '768px',
         lg: '976px',
         xl: '1440px',

@@ -125,13 +125,13 @@ const RSVPFooter = () => {
             </div>
 
             {/* Send */}
-            <div className="send">
+            <div className="send max-w-full mx-auto ">
               <form className="p-16 sm:p-4 rounded-lg border-2 bg-white">
                 <div className="send-text">
-                  <h1 className="title-text text-center text-black text-5xl my-5 font-bold">
+                  <h1 className="title-text text-center text-black text-5xl md:text-4xl sm:text-3xl my-5 font-bold">
                     RSVP
                   </h1>
-                  <p className="leads text-center max-w-sm mx-auto font-montserrat">
+                  <p className="leads text-center md:text-[16px] sm:text-[12px] max-w-sm mx-auto font-montserrat">
                     Lorem ipsum dolor sit amet consectetur. Porttitor
                     ullamcorper eget quam libero
                   </p>
@@ -139,14 +139,14 @@ const RSVPFooter = () => {
                 <div className="input-list mt-5">
                   <input
                     type="text"
-                    className="w-full border p-5"
-                    placeholder="Nama"
+                    className="w-full border-b-2 border border-b-[#888] border-l-[#fff] border-r-[#fff] border-t-[#fff]  p-5"
+                    placeholder="Isikan Nama Anda"
                     name="rsvp_name"
                     onChange={handleChangeRSVP}
                   />
                   <input
                     type="text"
-                    className="w-full border p-5"
+                    className="w-full border-b-2 border border-b-[#888] border-l-[#fff] border-r-[#fff] border-t-[#fff]  p-5"
                     placeholder="Isikan Konfirmasi Daftar Kehadiran"
                     name="rsvp_confirmation"
                     onChange={handleChangeRSVP}
@@ -168,26 +168,26 @@ const RSVPFooter = () => {
                     />
                   </div>
                   {/* ucapan */}
-                  <div className="ucapan">
-                    <h1 className="title text-center font-montserrat text-4xl my-5 font-bold">
+                  <div className="ucapan pb-10">
+                    <h1 className="title text-center font-montserrat text-5xl md:text-4xl sm:text-3xl my-5 font-bold">
                       Ucapan & Doa
                     </h1>
-                    <div className="leads max-w-sm mx-auto text-center font-montserrat">
+                    <div className="leads max-w-sm mx-auto md:text-[16px] sm:text-[12px] text-center font-montserrat">
                       Lorem ipsum dolor sit amet consectetur. Porttitor
                       ullamcorper eget quam libero{" "}
                     </div>
                     <div className="input-list mt-5">
                       <input
                         type="text"
-                        className="w-full border p-5"
-                        placeholder="Nama"
+                        className="w-full border border-b-2 mt-2 border-b-[#888] border-l-[#fff] border-r-[#fff] border-t-[#fff]  p-5"
+                        placeholder="Isikan Nama Anda"
                         name="nama_pengirim"
                         onChange={handleFormUcapan}
                       />
                       <input
                         type="text"
-                        className="w-full border p-5"
-                        placeholder="Ucapan & Doa"
+                        className="w-full border border-b-2 mt-2 border-b-[#888] border-l-[#fff] border-r-[#fff] border-t-[#fff]  p-5"
+                        placeholder="Isikan Ucapan & Doa"
                         name="konten_ucapan"
                         onChange={handleFormUcapan}
                       />
@@ -208,14 +208,14 @@ const RSVPFooter = () => {
         </div>
       </section>
       <footer className="p-24 md:p-24 sm:p-7 w-screen bg-[#1E1E1E]">
-        <p className="leads text-white text-center text-2xl md:text-2xl sm:text-xl font-bold font-montserrat">
+        <p className="leads text-white text-center text-2xl md:text-2xl sm:text-sm font-bold font-montserrat">
           Kami Yang Berbahagia
         </p>
-        <h1 className="title-texts text-center text-white text-7xl md:text-6xl sm:text-5xl my-8 font-marck">
-          In'am Attaqi <div className="w- sm:w-52 mx-auto">& </div>
+        <h1 className="title-texts text-center text-white text-7xl md:text-6xl sm:text-xl my-8 font-marck">
+          In'am Attaqi &
           Siti Sumiyati Nur
         </h1>
-        <p className="leads text-center text-white font-montserrat text-2xl md:text-2xl sm:text-xl font-bold">
+        <p className="leads text-center text-white font-montserrat text-2xl md:text-2xl sm:text-sm font-bold">
           Sekeluarga
         </p>
       </footer>
